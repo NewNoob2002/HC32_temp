@@ -1,0 +1,558 @@
+Dependencies for Project 'hc32', Target 'hc32': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\app\main.cpp)(0x680C9482)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/main.o -MD)
+I (config\hc32_ddl.h)(0x60E7E853)
+I (config\hc32_common.h)(0x6098D75F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x602A3B6E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x603507B6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stddef.h)(0x602A3B6E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__nullptr)(0x602A3B74)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x602A3B7A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdbool.h)(0x602A3B6C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (mcu_core\hc32f460.h)(0x60AEEBDE)
+I (mcu_core\CMSIS\Include\core_cm4.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_version.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\mpu_armv7.h)(0x60D3E8E2)
+I (mcu_core\system_hc32f460.h)(0x609625AE)
+I (config\ddl_config.h)(0x680C98EC)
+I (driver\inc\hc32f460_exint_nmi_swi.h)(0x680C73B0)
+I (driver\inc\hc32f460_gpio.h)(0x609625AE)
+I (driver\inc\hc32f460_icg.h)(0x609625AE)
+I (driver\inc\hc32f460_interrupts.h)(0x609625AE)
+I (driver\inc\hc32f460_sram.h)(0x609625AE)
+I (driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\mcu_core\hc32f460.h)(0x60AEEBDE)()
+F (.\mcu_core\startup_hc32f460.s)(0x60E7E86F)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-4-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 536"-o ./objects/startup_hc32f460.o)
+F (.\mcu_core\system_hc32f460.c)(0x609625AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/system_hc32f460.o -MD)
+I (config\hc32_common.h)(0x6098D75F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (mcu_core\hc32f460.h)(0x60AEEBDE)
+I (mcu_core\CMSIS\Include\core_cm4.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_version.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\mpu_armv7.h)(0x60D3E8E2)
+I (mcu_core\system_hc32f460.h)(0x609625AE)
+F (.\mcu_core\system_hc32f460.h)(0x609625AE)()
+F (.\config\ddl_config.h)(0x680C98EC)()
+F (.\config\hc32_common.h)(0x6098D75F)()
+F (.\config\hc32_ddl.h)(0x60E7E853)()
+F (.\FreeRTOS2\FreeRTOSConfig.h)(0x680C79FF)()
+F (.\driver\src\hc32f460_adc.c)(0x60E7E853)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/hc32f460_adc.o -MD)
+I (driver\inc\hc32f460_adc.h)(0x609625AE)
+I (config\hc32_common.h)(0x6098D75F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (mcu_core\hc32f460.h)(0x60AEEBDE)
+I (mcu_core\CMSIS\Include\core_cm4.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_version.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\mpu_armv7.h)(0x60D3E8E2)
+I (mcu_core\system_hc32f460.h)(0x609625AE)
+I (config\ddl_config.h)(0x680C98EC)
+I (driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\driver\src\hc32f460_aes.c)(0x609625AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/hc32f460_aes.o -MD)
+I (driver\inc\hc32f460_aes.h)(0x609625AE)
+I (config\hc32_common.h)(0x6098D75F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (mcu_core\hc32f460.h)(0x60AEEBDE)
+I (mcu_core\CMSIS\Include\core_cm4.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_version.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\mpu_armv7.h)(0x60D3E8E2)
+I (mcu_core\system_hc32f460.h)(0x609625AE)
+I (config\ddl_config.h)(0x680C98EC)
+I (driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\driver\src\hc32f460_clk.c)(0x60AEEBDD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/hc32f460_clk.o -MD)
+I (driver\inc\hc32f460_clk.h)(0x609625AE)
+I (config\hc32_common.h)(0x6098D75F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (mcu_core\hc32f460.h)(0x60AEEBDE)
+I (mcu_core\CMSIS\Include\core_cm4.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_version.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\mpu_armv7.h)(0x60D3E8E2)
+I (mcu_core\system_hc32f460.h)(0x609625AE)
+I (config\ddl_config.h)(0x680C98EC)
+I (driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\driver\src\hc32f460_cmp.c)(0x609625AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/hc32f460_cmp.o -MD)
+I (driver\inc\hc32f460_cmp.h)(0x609625AE)
+I (config\hc32_common.h)(0x6098D75F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (mcu_core\hc32f460.h)(0x60AEEBDE)
+I (mcu_core\CMSIS\Include\core_cm4.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_version.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\mpu_armv7.h)(0x60D3E8E2)
+I (mcu_core\system_hc32f460.h)(0x609625AE)
+I (config\ddl_config.h)(0x680C98EC)
+I (driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\driver\src\hc32f460_crc.c)(0x609625AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/hc32f460_crc.o -MD)
+I (driver\inc\hc32f460_crc.h)(0x609625AE)
+I (config\hc32_common.h)(0x6098D75F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (mcu_core\hc32f460.h)(0x60AEEBDE)
+I (mcu_core\CMSIS\Include\core_cm4.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_version.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\mpu_armv7.h)(0x60D3E8E2)
+I (mcu_core\system_hc32f460.h)(0x609625AE)
+I (config\ddl_config.h)(0x680C98EC)
+I (driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\driver\src\hc32f460_event_port.c)(0x609625AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/hc32f460_event_port.o -MD)
+I (driver\inc\hc32f460_event_port.h)(0x609625AE)
+I (config\hc32_common.h)(0x6098D75F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (mcu_core\hc32f460.h)(0x60AEEBDE)
+I (mcu_core\CMSIS\Include\core_cm4.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_version.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\mpu_armv7.h)(0x60D3E8E2)
+I (mcu_core\system_hc32f460.h)(0x609625AE)
+I (config\ddl_config.h)(0x680C98EC)
+I (driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\driver\src\hc32f460_gpio.c)(0x680B8F4E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/hc32f460_gpio.o -MD)
+I (driver\inc\hc32f460_gpio.h)(0x609625AE)
+I (config\hc32_common.h)(0x6098D75F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (mcu_core\hc32f460.h)(0x60AEEBDE)
+I (mcu_core\CMSIS\Include\core_cm4.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_version.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\mpu_armv7.h)(0x60D3E8E2)
+I (mcu_core\system_hc32f460.h)(0x609625AE)
+I (config\ddl_config.h)(0x680C98EC)
+I (driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\driver\src\hc32f460_i2c.c)(0x609625AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/hc32f460_i2c.o -MD)
+I (driver\inc\hc32f460_i2c.h)(0x609625AE)
+I (config\hc32_common.h)(0x6098D75F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (mcu_core\hc32f460.h)(0x60AEEBDE)
+I (mcu_core\CMSIS\Include\core_cm4.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_version.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\mpu_armv7.h)(0x60D3E8E2)
+I (mcu_core\system_hc32f460.h)(0x609625AE)
+I (config\ddl_config.h)(0x680C98EC)
+I (driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\driver\src\hc32f460_interrupts.c)(0x680C9958)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/hc32f460_interrupts.o -MD)
+I (driver\inc\hc32f460_interrupts.h)(0x609625AE)
+I (config\hc32_common.h)(0x6098D75F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (mcu_core\hc32f460.h)(0x60AEEBDE)
+I (mcu_core\CMSIS\Include\core_cm4.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_version.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\mpu_armv7.h)(0x60D3E8E2)
+I (mcu_core\system_hc32f460.h)(0x609625AE)
+I (config\ddl_config.h)(0x680C98EC)
+I (driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\driver\src\hc32f460_rtc.c)(0x609625AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/hc32f460_rtc.o -MD)
+I (driver\inc\hc32f460_rtc.h)(0x609625AE)
+I (config\hc32_common.h)(0x6098D75F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (mcu_core\hc32f460.h)(0x60AEEBDE)
+I (mcu_core\CMSIS\Include\core_cm4.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_version.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\mpu_armv7.h)(0x60D3E8E2)
+I (mcu_core\system_hc32f460.h)(0x609625AE)
+I (config\ddl_config.h)(0x680C98EC)
+I (driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\driver\src\hc32f460_spi.c)(0x609625AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/hc32f460_spi.o -MD)
+I (driver\inc\hc32f460_spi.h)(0x609625AE)
+I (config\hc32_common.h)(0x6098D75F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (mcu_core\hc32f460.h)(0x60AEEBDE)
+I (mcu_core\CMSIS\Include\core_cm4.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_version.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\mpu_armv7.h)(0x60D3E8E2)
+I (mcu_core\system_hc32f460.h)(0x609625AE)
+I (config\ddl_config.h)(0x680C98EC)
+I (driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\driver\src\hc32f460_sram.c)(0x609625AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/hc32f460_sram.o -MD)
+I (driver\inc\hc32f460_sram.h)(0x609625AE)
+I (config\hc32_common.h)(0x6098D75F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (mcu_core\hc32f460.h)(0x60AEEBDE)
+I (mcu_core\CMSIS\Include\core_cm4.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_version.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\mpu_armv7.h)(0x60D3E8E2)
+I (mcu_core\system_hc32f460.h)(0x609625AE)
+I (config\ddl_config.h)(0x680C98EC)
+I (driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\driver\src\hc32f460_swdt.c)(0x609625AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/hc32f460_swdt.o -MD)
+I (driver\inc\hc32f460_swdt.h)(0x609625AE)
+I (config\hc32_common.h)(0x6098D75F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (mcu_core\hc32f460.h)(0x60AEEBDE)
+I (mcu_core\CMSIS\Include\core_cm4.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_version.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\mpu_armv7.h)(0x60D3E8E2)
+I (mcu_core\system_hc32f460.h)(0x609625AE)
+I (config\ddl_config.h)(0x680C98EC)
+I (driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\driver\src\hc32f460_timer0.c)(0x609625AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/hc32f460_timer0.o -MD)
+I (driver\inc\hc32f460_timer0.h)(0x609625AE)
+I (config\hc32_common.h)(0x6098D75F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (mcu_core\hc32f460.h)(0x60AEEBDE)
+I (mcu_core\CMSIS\Include\core_cm4.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_version.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\mpu_armv7.h)(0x60D3E8E2)
+I (mcu_core\system_hc32f460.h)(0x609625AE)
+I (config\ddl_config.h)(0x680C98EC)
+I (driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\driver\src\hc32f460_timer6.c)(0x609625AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/hc32f460_timer6.o -MD)
+I (driver\inc\hc32f460_timer6.h)(0x609625AE)
+I (config\hc32_common.h)(0x6098D75F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (mcu_core\hc32f460.h)(0x60AEEBDE)
+I (mcu_core\CMSIS\Include\core_cm4.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_version.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\mpu_armv7.h)(0x60D3E8E2)
+I (mcu_core\system_hc32f460.h)(0x609625AE)
+I (config\ddl_config.h)(0x680C98EC)
+I (driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\driver\src\hc32f460_timera.c)(0x609625AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/hc32f460_timera.o -MD)
+I (driver\inc\hc32f460_timera.h)(0x609625AE)
+I (config\hc32_common.h)(0x6098D75F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (mcu_core\hc32f460.h)(0x60AEEBDE)
+I (mcu_core\CMSIS\Include\core_cm4.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_version.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\mpu_armv7.h)(0x60D3E8E2)
+I (mcu_core\system_hc32f460.h)(0x609625AE)
+I (config\ddl_config.h)(0x680C98EC)
+I (driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\driver\src\hc32f460_trng.c)(0x609625AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/hc32f460_trng.o -MD)
+I (driver\inc\hc32f460_trng.h)(0x609625AE)
+I (config\hc32_common.h)(0x6098D75F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (mcu_core\hc32f460.h)(0x60AEEBDE)
+I (mcu_core\CMSIS\Include\core_cm4.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_version.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\mpu_armv7.h)(0x60D3E8E2)
+I (mcu_core\system_hc32f460.h)(0x609625AE)
+I (config\ddl_config.h)(0x680C98EC)
+I (driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\driver\src\hc32f460_usart.c)(0x609625AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/hc32f460_usart.o -MD)
+I (driver\inc\hc32f460_usart.h)(0x609625AE)
+I (config\hc32_common.h)(0x6098D75F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (mcu_core\hc32f460.h)(0x60AEEBDE)
+I (mcu_core\CMSIS\Include\core_cm4.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_version.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\mpu_armv7.h)(0x60D3E8E2)
+I (mcu_core\system_hc32f460.h)(0x609625AE)
+I (config\ddl_config.h)(0x680C98EC)
+I (driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\driver\src\hc32f460_utility.c)(0x609625AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/hc32f460_utility.o -MD)
+I (driver\inc\hc32f460_utility.h)(0x609625AE)
+I (config\hc32_common.h)(0x6098D75F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (mcu_core\hc32f460.h)(0x60AEEBDE)
+I (mcu_core\CMSIS\Include\core_cm4.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_version.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\mpu_armv7.h)(0x60D3E8E2)
+I (mcu_core\system_hc32f460.h)(0x609625AE)
+I (config\ddl_config.h)(0x680C98EC)
+F (.\driver\src\hc32f460_wdt.c)(0x609625AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/hc32f460_wdt.o -MD)
+I (driver\inc\hc32f460_wdt.h)(0x609625AE)
+I (config\hc32_common.h)(0x6098D75F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (mcu_core\hc32f460.h)(0x60AEEBDE)
+I (mcu_core\CMSIS\Include\core_cm4.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_version.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\mpu_armv7.h)(0x60D3E8E2)
+I (mcu_core\system_hc32f460.h)(0x609625AE)
+I (config\ddl_config.h)(0x680C98EC)
+I (driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\driver\src\hc32f460_ots.c)(0x609625AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/hc32f460_ots.o -MD)
+I (driver\inc\hc32f460_ots.h)(0x609625AE)
+I (config\hc32_common.h)(0x6098D75F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (mcu_core\hc32f460.h)(0x60AEEBDE)
+I (mcu_core\CMSIS\Include\core_cm4.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_version.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\mpu_armv7.h)(0x60D3E8E2)
+I (mcu_core\system_hc32f460.h)(0x609625AE)
+I (config\ddl_config.h)(0x680C98EC)
+I (driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\driver\src\hc32f460_pwc.c)(0x609625AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/hc32f460_pwc.o -MD)
+I (driver\inc\hc32f460_pwc.h)(0x609625AE)
+I (config\hc32_common.h)(0x6098D75F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (mcu_core\hc32f460.h)(0x60AEEBDE)
+I (mcu_core\CMSIS\Include\core_cm4.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_version.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\mpu_armv7.h)(0x60D3E8E2)
+I (mcu_core\system_hc32f460.h)(0x609625AE)
+I (config\ddl_config.h)(0x680C98EC)
+I (driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\driver\src\hc32f460_efm.c)(0x609625AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/hc32f460_efm.o -MD)
+I (driver\inc\hc32f460_efm.h)(0x609625AE)
+I (config\hc32_common.h)(0x6098D75F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (mcu_core\hc32f460.h)(0x60AEEBDE)
+I (mcu_core\CMSIS\Include\core_cm4.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_version.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\mpu_armv7.h)(0x60D3E8E2)
+I (mcu_core\system_hc32f460.h)(0x609625AE)
+I (config\ddl_config.h)(0x680C98EC)
+I (driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\driver\src\hc32f460_exint_nmi_swi.c)(0x680C73D5)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/hc32f460_exint_nmi_swi.o -MD)
+I (driver\inc\hc32f460_exint_nmi_swi.h)(0x680C73B0)
+I (config\hc32_common.h)(0x6098D75F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (mcu_core\hc32f460.h)(0x60AEEBDE)
+I (mcu_core\CMSIS\Include\core_cm4.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_version.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (mcu_core\CMSIS\Include\mpu_armv7.h)(0x60D3E8E2)
+I (mcu_core\system_hc32f460.h)(0x609625AE)
+I (config\ddl_config.h)(0x680C98EC)
+I (driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\FreeRTOS2\croutine.c)(0x673E67AC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/croutine.o -MD)
+I (FreeRTOS2\include\FreeRTOS.h)(0x673E67AC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (FreeRTOS2\FreeRTOSConfig.h)(0x680C79FF)
+I (FreeRTOS2\include\projdefs.h)(0x673E67AC)
+I (FreeRTOS2\include\portable.h)(0x673E67AC)
+I (FreeRTOS2\include\deprecated_definitions.h)(0x673E67AC)
+I (FreeRTOS2\portable\GCC\ARM_CM4F\portmacro.h)(0x673E67AC)
+I (FreeRTOS2\include\mpu_wrappers.h)(0x673E67AC)
+I (FreeRTOS2\include\task.h)(0x673E67AC)
+I (FreeRTOS2\include\list.h)(0x673E67AC)
+I (FreeRTOS2\include\croutine.h)(0x673E67AC)
+F (.\FreeRTOS2\event_groups.c)(0x673E67AC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/event_groups.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (FreeRTOS2\include\FreeRTOS.h)(0x673E67AC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (FreeRTOS2\FreeRTOSConfig.h)(0x680C79FF)
+I (FreeRTOS2\include\projdefs.h)(0x673E67AC)
+I (FreeRTOS2\include\portable.h)(0x673E67AC)
+I (FreeRTOS2\include\deprecated_definitions.h)(0x673E67AC)
+I (FreeRTOS2\portable\GCC\ARM_CM4F\portmacro.h)(0x673E67AC)
+I (FreeRTOS2\include\mpu_wrappers.h)(0x673E67AC)
+I (FreeRTOS2\include\task.h)(0x673E67AC)
+I (FreeRTOS2\include\list.h)(0x673E67AC)
+I (FreeRTOS2\include\timers.h)(0x673E67AC)
+I (FreeRTOS2\include\event_groups.h)(0x673E67AC)
+F (.\FreeRTOS2\list.c)(0x673E67AC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/list.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (FreeRTOS2\include\FreeRTOS.h)(0x673E67AC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (FreeRTOS2\FreeRTOSConfig.h)(0x680C79FF)
+I (FreeRTOS2\include\projdefs.h)(0x673E67AC)
+I (FreeRTOS2\include\portable.h)(0x673E67AC)
+I (FreeRTOS2\include\deprecated_definitions.h)(0x673E67AC)
+I (FreeRTOS2\portable\GCC\ARM_CM4F\portmacro.h)(0x673E67AC)
+I (FreeRTOS2\include\mpu_wrappers.h)(0x673E67AC)
+I (FreeRTOS2\include\list.h)(0x673E67AC)
+F (.\FreeRTOS2\queue.c)(0x673E67AC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/queue.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (FreeRTOS2\include\FreeRTOS.h)(0x673E67AC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (FreeRTOS2\FreeRTOSConfig.h)(0x680C79FF)
+I (FreeRTOS2\include\projdefs.h)(0x673E67AC)
+I (FreeRTOS2\include\portable.h)(0x673E67AC)
+I (FreeRTOS2\include\deprecated_definitions.h)(0x673E67AC)
+I (FreeRTOS2\portable\GCC\ARM_CM4F\portmacro.h)(0x673E67AC)
+I (FreeRTOS2\include\mpu_wrappers.h)(0x673E67AC)
+I (FreeRTOS2\include\task.h)(0x673E67AC)
+I (FreeRTOS2\include\list.h)(0x673E67AC)
+I (FreeRTOS2\include\queue.h)(0x673E67AC)
+F (.\FreeRTOS2\stream_buffer.c)(0x673E67AC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/stream_buffer.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (FreeRTOS2\include\FreeRTOS.h)(0x673E67AC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (FreeRTOS2\FreeRTOSConfig.h)(0x680C79FF)
+I (FreeRTOS2\include\projdefs.h)(0x673E67AC)
+I (FreeRTOS2\include\portable.h)(0x673E67AC)
+I (FreeRTOS2\include\deprecated_definitions.h)(0x673E67AC)
+I (FreeRTOS2\portable\GCC\ARM_CM4F\portmacro.h)(0x673E67AC)
+I (FreeRTOS2\include\mpu_wrappers.h)(0x673E67AC)
+I (FreeRTOS2\include\task.h)(0x673E67AC)
+I (FreeRTOS2\include\list.h)(0x673E67AC)
+I (FreeRTOS2\include\stream_buffer.h)(0x673E67AC)
+F (.\FreeRTOS2\tasks.c)(0x673E67AC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/tasks.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (FreeRTOS2\include\FreeRTOS.h)(0x673E67AC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (FreeRTOS2\FreeRTOSConfig.h)(0x680C79FF)
+I (FreeRTOS2\include\projdefs.h)(0x673E67AC)
+I (FreeRTOS2\include\portable.h)(0x673E67AC)
+I (FreeRTOS2\include\deprecated_definitions.h)(0x673E67AC)
+I (FreeRTOS2\portable\GCC\ARM_CM4F\portmacro.h)(0x673E67AC)
+I (FreeRTOS2\include\mpu_wrappers.h)(0x673E67AC)
+I (FreeRTOS2\include\task.h)(0x673E67AC)
+I (FreeRTOS2\include\list.h)(0x673E67AC)
+I (FreeRTOS2\include\timers.h)(0x673E67AC)
+I (FreeRTOS2\include\stack_macros.h)(0x673E67AC)
+F (.\FreeRTOS2\timers.c)(0x673E67AC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/timers.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (FreeRTOS2\include\FreeRTOS.h)(0x673E67AC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (FreeRTOS2\FreeRTOSConfig.h)(0x680C79FF)
+I (FreeRTOS2\include\projdefs.h)(0x673E67AC)
+I (FreeRTOS2\include\portable.h)(0x673E67AC)
+I (FreeRTOS2\include\deprecated_definitions.h)(0x673E67AC)
+I (FreeRTOS2\portable\GCC\ARM_CM4F\portmacro.h)(0x673E67AC)
+I (FreeRTOS2\include\mpu_wrappers.h)(0x673E67AC)
+I (FreeRTOS2\include\task.h)(0x673E67AC)
+I (FreeRTOS2\include\list.h)(0x673E67AC)
+I (FreeRTOS2\include\queue.h)(0x673E67AC)
+I (FreeRTOS2\include\timers.h)(0x673E67AC)
+F (.\FreeRTOS2\portable\MemMang\heap_4.c)(0x673E67AC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/heap_4.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (FreeRTOS2\include\FreeRTOS.h)(0x673E67AC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (FreeRTOS2\FreeRTOSConfig.h)(0x680C79FF)
+I (FreeRTOS2\include\projdefs.h)(0x673E67AC)
+I (FreeRTOS2\include\portable.h)(0x673E67AC)
+I (FreeRTOS2\include\deprecated_definitions.h)(0x673E67AC)
+I (FreeRTOS2\portable\GCC\ARM_CM4F\portmacro.h)(0x673E67AC)
+I (FreeRTOS2\include\mpu_wrappers.h)(0x673E67AC)
+I (FreeRTOS2\include\task.h)(0x673E67AC)
+I (FreeRTOS2\include\list.h)(0x673E67AC)
+F (.\FreeRTOS2\portable\GCC\ARM_CM4F\port.c)(0x673E67AC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./app -I ./config -I ./driver/inc -I ./mcu_core -I ./mcu_core/CMSIS/Include -I ./FreeRTOS2 -I ./FreeRTOS2/include -I ./FreeRTOS2/portable/GCC/ARM_CM4F-IC:/Users/guoti/AppData/Local/Arm/Packs/HDSC/HC32F460/1.0.12/Device/Include-D__UVISION_VERSION="536" -DHC32F460 -DUSE_DEVICE_DRIVER_LIB -D__VFP_FP__-o ./objects/port.o -MD)
+I (FreeRTOS2\include\FreeRTOS.h)(0x673E67AC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (FreeRTOS2\FreeRTOSConfig.h)(0x680C79FF)
+I (FreeRTOS2\include\projdefs.h)(0x673E67AC)
+I (FreeRTOS2\include\portable.h)(0x673E67AC)
+I (FreeRTOS2\include\deprecated_definitions.h)(0x673E67AC)
+I (FreeRTOS2\portable\GCC\ARM_CM4F\portmacro.h)(0x673E67AC)
+I (FreeRTOS2\include\mpu_wrappers.h)(0x673E67AC)
+I (FreeRTOS2\include\task.h)(0x673E67AC)
+I (FreeRTOS2\include\list.h)(0x673E67AC)

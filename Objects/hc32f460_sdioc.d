@@ -1,0 +1,16 @@
+.\objects\hc32f460_sdioc.o: driver\src\hc32f460_sdioc.c
+.\objects\hc32f460_sdioc.o: .\driver\inc\hc32f460_sdioc.h
+.\objects\hc32f460_sdioc.o: .\config\hc32_common.h
+.\objects\hc32f460_sdioc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\hc32f460_sdioc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\hc32f460_sdioc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hc32f460_sdioc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\hc32f460_sdioc.o: .\mcu_core\hc32f460.h
+.\objects\hc32f460_sdioc.o: C:\Users\guoti\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h
+.\objects\hc32f460_sdioc.o: C:\Users\guoti\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\hc32f460_sdioc.o: C:\Users\guoti\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\hc32f460_sdioc.o: C:\Users\guoti\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\hc32f460_sdioc.o: C:\Users\guoti\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\hc32f460_sdioc.o: .\mcu_core\system_hc32f460.h
+.\objects\hc32f460_sdioc.o: .\config\ddl_config.h
+.\objects\hc32f460_sdioc.o: .\driver\inc\hc32f460_utility.h
