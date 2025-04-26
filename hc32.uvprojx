@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>HC32F460,USE_DEVICE_DRIVER_LIB,__VFP_FP__</Define>
               <Undefine></Undefine>
-              <IncludePath>.\app;.\config;.\driver\inc;.\mcu_core;.\mcu_core\CMSIS\Include;.\FreeRTOS2;.\FreeRTOS2\include;.\FreeRTOS2\portable\GCC\ARM_CM4F</IncludePath>
+              <IncludePath>.\app;.\config;.\driver\inc;.\mcu_core;.\mcu_core\CMSIS\Include;.\mcu_core\sysclock;.\FreeRTOS2;.\FreeRTOS2\include;.\FreeRTOS2\portable\GCC\ARM_CM4F</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -412,6 +412,21 @@
               <FileName>system_hc32f460.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\mcu_core\system_hc32f460.h</FilePath>
+            </File>
+            <File>
+              <FileName>sysclock.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\mcu_core\sysclock\sysclock.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>sysclock_util.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\mcu_core\sysclock\sysclock_util.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>systick.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\mcu_core\sysclock\systick.cpp</FilePath>
             </File>
           </Files>
         </Group>

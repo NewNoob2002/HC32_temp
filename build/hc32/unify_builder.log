@@ -1,0 +1,68 @@
+[2025-04-26 15:19:24]	[info] incremental build: 36 source files changed
+These source files will be recompiled
+---
+'c:\Users\guoti\Desktop\HC32\HC32Temp\FreeRTOS2\croutine.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\FreeRTOS2\event_groups.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\FreeRTOS2\list.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\FreeRTOS2\portable\GCC\ARM_CM4F\port.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\FreeRTOS2\portable\MemMang\heap_4.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\FreeRTOS2\queue.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\FreeRTOS2\stream_buffer.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\FreeRTOS2\tasks.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\FreeRTOS2\timers.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\app\main.cpp': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\driver\src\hc32f460_adc.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\driver\src\hc32f460_aes.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\driver\src\hc32f460_clk.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\driver\src\hc32f460_cmp.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\driver\src\hc32f460_crc.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\driver\src\hc32f460_efm.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\driver\src\hc32f460_event_port.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\driver\src\hc32f460_exint_nmi_swi.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\driver\src\hc32f460_gpio.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\driver\src\hc32f460_i2c.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\driver\src\hc32f460_interrupts.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\driver\src\hc32f460_ots.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\driver\src\hc32f460_pwc.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\driver\src\hc32f460_rtc.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\driver\src\hc32f460_spi.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\driver\src\hc32f460_sram.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\driver\src\hc32f460_swdt.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\driver\src\hc32f460_timer0.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\driver\src\hc32f460_timer6.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\driver\src\hc32f460_timera.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\driver\src\hc32f460_trng.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\driver\src\hc32f460_usart.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\driver\src\hc32f460_utility.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\driver\src\hc32f460_wdt.c': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\mcu_core\startup_hc32f460.s': object (.o) file not exist
+'c:\Users\guoti\Desktop\HC32\HC32Temp\mcu_core\system_hc32f460.c': object (.o) file not exist
+
+[2025-04-26 15:19:27]	[done]
+	build successfully !
+
+[2025-04-26 15:19:53]	[done]
+	build successfully !
+
+[2025-04-26 15:34:19]	[done]
+	build successfully !
+
+[2025-04-26 16:01:41]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\guoti\Desktop\HC32\HC32Temp\app\main.cpp': source file has been changed.
+
+[2025-04-26 16:01:42]	[done]
+	build successfully !
+
+[2025-04-26 16:13:22]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\guoti\Desktop\HC32\HC32Temp\app\main.cpp': source file has been changed.
+
+[2025-04-26 16:13:22]	[done]
+	build successfully !
+
+[2025-04-26 16:17:05]	[done]
+	build successfully !
+

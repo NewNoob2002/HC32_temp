@@ -1,0 +1,1 @@
+"C:\Keil_v5\ARM\ARMCLANG\bin\armasm.exe" -Iapp -Iconfig -Idriver/inc -Imcu_core -Imcu_core/CMSIS/Include -IFreeRTOS2 -IFreeRTOS2/include -IFreeRTOS2/portable/GCC/ARM_CM4F -I.cmsis/include -IRTE/_hc32 --cpu Cortex-M4.fp --li -g -o ./build/hc32/.obj/mcu_core/startup_hc32f460.o --depend ./build/hc32/.obj/mcu_core/startup_hc32f460.d ./mcu_core/startup_hc32f460.s

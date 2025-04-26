@@ -124,43 +124,108 @@ typedef enum en_result
 #error "Please select first the target HC32xxxx device used in your application (in hc32xxxx.h file)"
 #endif
 
-/*! Weak and Align compiler definition */
-#if defined ( __GNUC__ ) && !defined (__CC_ARM) /* GNU Compiler */
-  #ifndef __WEAKDEF
-    #define __WEAKDEF                   __attribute__((weak))
-  #endif /* __WEAKDEF */
-  #ifndef __ALIGN_BEGIN
-    #define __ALIGN_BEGIN               __attribute__((aligned (4)))
-  #endif /* __ALIGN_BEGIN */
-  #ifndef __NOINLINE
-    #define __NOINLINE                  __attribute__((noinline))
-  #endif /* __NOINLINE */
-  #ifndef __UNUSED
-    #define __UNUSED                    __attribute__((unused))
-  #endif /* __UNUSED */
-  #ifndef __RAM_FUNC
-    #define __RAM_FUNC                  __attribute__((long_call, section(".ramfunc")))
-    /* Usage: void __RAM_FUNC foo(void) */
-  #endif /* __RAM_FUNC */
-#elif defined (__ICCARM__)                ///< IAR Compiler
-#define __WEAKDEF                       __weak
-#define __ALIGN_BEGIN                   _Pragma("data_alignment=4")
-#define __NOINLINE                      _Pragma("optimize = no_inline")
+/**
+ * @defgroup Compiler_Macros Compiler Macros
+ * @{
+ */
+#ifndef __UNUSED
 #define __UNUSED                        __attribute__((unused))
-#define __RAM_FUNC                      __ramfunc
-#elif defined (__CC_ARM)                ///< ARM Compiler
-#define __WEAKDEF                       __attribute__((weak))
-#define __ALIGN_BEGIN                   __align(4)
-#define __NOINLINE                      __attribute__((noinline))
-#define __UNUSED                        __attribute__((unused))
+#endif /* __UNUSED */
+
+#ifndef __USED
+#define __USED                        __attribute__((used))
+#endif /* __USED */
+
+#if defined (__ARMCC_VERSION) && (__ARMCC_VERSION >= 6010050)
+#ifndef __WEAKDEF
+#define __WEAKDEF                   __attribute__((weak))
+#endif /* __WEAKDEF */
+#ifndef __ALIGN_BEGIN
+#define __ALIGN_BEGIN               __attribute__((aligned(4)))
+#endif /* __ALIGN_BEGIN */
+#ifndef __NOINLINE
+#define __NOINLINE                  __attribute__((noinline))
+#endif /* __NOINLINE */
 /* RAM functions are defined using the toolchain options.
-   Functions that are executed in RAM should reside in a separate source module.
-   Using the 'Options for File' dialog you can simply change the 'Code / Const'
-   area of a module to a memory space in physical RAM. */
-#define __RAM_FUNC
+Functions that are executed in RAM should reside in a separate source module.
+Using the 'Options for File' dialog you can simply change the 'Code / Const'
+area of a module to a memory space in physical RAM. */
+#ifndef __RAM_FUNC
+#define __RAM_FUNC                  __attribute__((section("RAMCODE")))
+#endif /* __RAM_FUNC */
+#ifndef __NO_INIT
+#define __NO_INIT                   __attribute__((section(".bss.noinit")))
+#endif /* __NO_INIT */
+#ifndef __NO_OPTIMIZE
+#define __NO_OPTIMIZE               __attribute__((optnone))
+#endif /* __NO_OPTIMIZE */
+#elif defined (__GNUC__) && !defined (__CC_ARM) /*!< GNU Compiler */
+#ifndef __WEAKDEF
+#define __WEAKDEF                   __attribute__((weak))
+#endif /* __WEAKDEF */
+#ifndef __ALIGN_BEGIN
+#define __ALIGN_BEGIN               __attribute__((aligned (4)))
+#endif /* __ALIGN_BEGIN */
+#ifndef __NOINLINE
+#define __NOINLINE                  __attribute__((noinline))
+#endif /* __NOINLINE */
+#ifndef __RAM_FUNC
+#define __RAM_FUNC                  __attribute__((long_call, section(".ramfunc")))
+/* Usage: __RAM_FUNC void foo(void) */
+#endif /* __RAM_FUNC */
+#ifndef __NO_INIT
+#define __NO_INIT                   __attribute__((section(".noinit")))
+#endif /* __NO_INIT */
+#ifndef __NO_OPTIMIZE
+#define __NO_OPTIMIZE               __attribute__((optimize("O0")))
+#endif /* __NO_OPTIMIZE */
+#elif defined (__ICCARM__)              /*!< IAR Compiler */
+#ifndef __WEAKDEF
+#define __WEAKDEF                   __weak
+#endif /* __WEAKDEF */
+#ifndef __ALIGN_BEGIN
+#define __ALIGN_BEGIN               _Pragma("data_alignment=4")
+#endif /* __ALIGN_BEGIN */
+#ifndef __NOINLINE
+#define __NOINLINE                  _Pragma("optimize = no_inline")
+#endif /* __NOINLINE */
+#ifndef __RAM_FUNC
+#define __RAM_FUNC                  __ramfunc
+#endif /* __RAM_FUNC */
+#ifndef __NO_INIT
+#define __NO_INIT                   __no_init
+#endif /* __NO_INIT */
+#ifndef __NO_OPTIMIZE
+#define __NO_OPTIMIZE               _Pragma("optimize=none")
+#endif /* __NO_OPTIMIZE */
+#elif defined (__CC_ARM)                /*!< ARM Compiler */
+#ifndef __WEAKDEF
+#define __WEAKDEF                   __attribute__((weak))
+#endif /* __WEAKDEF */
+#ifndef __ALIGN_BEGIN
+#define __ALIGN_BEGIN               __align(4)
+#endif /* __ALIGN_BEGIN */
+#ifndef __NOINLINE
+#define __NOINLINE                  __attribute__((noinline))
+#endif /* __NOINLINE */
+#ifndef __NO_INIT
+#define __NO_INIT                   __attribute__((section(".bss.noinit"), zero_init))
+#endif /* __NO_INIT */
+#ifndef __NO_OPTIMIZE
+#define __NO_OPTIMIZE
+#endif /* __NO_OPTIMIZE */
+/* RAM functions are defined using the toolchain options.
+Functions that are executed in RAM should reside in a separate source module.
+Using the 'Options for File' dialog you can simply change the 'Code / Const'
+area of a module to a memory space in physical RAM. */
+#ifndef __RAM_FUNC
+#define __RAM_FUNC                  __attribute__((section("RAMCODE")))
+#endif /* __RAM_FUNC */
+/* Suppress warning message: extended constant initializer used */
+#pragma diag_suppress 1296
 #else
 #error  "unsupported compiler!!"
-#endif  /* __GNUC__ */
+#endif
 
 /*! Pointer correspond to zero value */
 #if !defined (NULL)

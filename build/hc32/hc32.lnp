@@ -1,0 +1,1 @@
+--cpu=Cortex-M4.fp --lto --scatter "c:/Users/guoti/Desktop/HC32/HC32_temp/config/linker/HC32F460xE.sct" --diag_suppress=L6329 --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers --list ./build/hc32/hc32.map

@@ -7,4 +7,4 @@
   FreeRTOS2\include\deprecated_definitions.h \
   FreeRTOS2\portable\GCC\ARM_CM4F\portmacro.h \
   FreeRTOS2\include\mpu_wrappers.h FreeRTOS2\include\task.h \
-  FreeRTOS2\include\list.h
+  FreeRTOS2\include\list.h mcu_core\sysclock\systick.h
